@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import privateImg from "../../../public/img/icon/private-sale-row-image.svg"
-import preImg from "../../../public/img/icon/pre-sale-row-image.svg"
-import publicImg from "../../../public/img/icon/public-sale-row-image.svg"
+import privateImg from '../../../public/img/icon/private-sale-row-image.svg';
+import preImg from '../../../public/img/icon/pre-sale-row-image.svg';
+import publicImg from '../../../public/img/icon/public-sale-row-image.svg';
 
 const allocVestingData = [
   {
@@ -91,7 +91,7 @@ const Tokenomics = () => {
               onClick={() => setTap(1)}
             >
               <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 ">
-                <span className=''></span>
+                <span className=""></span>
                 <div className="flex w-full items-center gap-2">
                   Sale Details
                 </div>
@@ -152,7 +152,6 @@ const Tokenomics = () => {
                         src={privateImg}
                         className="token-sale-row-image"
                         alt="private-img"
-
                       />
                     </div>
                     <div className="header-text">Private Sale</div>
@@ -168,6 +167,7 @@ const Tokenomics = () => {
                       <Image
                         src={preImg}
                         className="token-sale-row-image"
+                        alt="pre-img"
                       />
                     </div>
                     <div className="header-text">Pre Sale</div>
@@ -183,6 +183,7 @@ const Tokenomics = () => {
                       <Image
                         src={publicImg}
                         className="token-sale-row-image"
+                        alt="pre-img"
                       />
                     </div>
                     <div className="header-text">Public Sale</div>
