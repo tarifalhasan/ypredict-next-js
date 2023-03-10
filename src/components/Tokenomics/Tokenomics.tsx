@@ -3,7 +3,7 @@ import Image from 'next/image';
 import privateImg from '../../../public/img/icon/private-sale-row-image.svg';
 import preImg from '../../../public/img/icon/pre-sale-row-image.svg';
 import publicImg from '../../../public/img/icon/public-sale-row-image.svg';
-
+// alloco
 const allocVestingData = [
   {
     allocatedTo: 'Private Sale',
