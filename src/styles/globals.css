@@ -466,12 +466,14 @@ label.nav-header-links {
   margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
   margin: 11px 94px 30px 97px;
 }
+
 .token-sale-table-row {
   display: flex;
   justify-content: space-between;
   margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
   margin: 11px 98px 28px 103px;
 }
+
 .token-sale-table-row.table-row {
   background: #4845ff;
   color: #fff;
@@ -578,6 +580,7 @@ label.nav-header-links {
 .testimonial-play-button:active {
   opacity: 0.5;
 }
+
 .EZDrawer .EZDrawer__container {
   background: #0f131e !important;
   transition: all 0.6s ease-in;

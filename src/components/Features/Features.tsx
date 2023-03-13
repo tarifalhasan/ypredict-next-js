@@ -7,8 +7,8 @@ import gradientShape from '../../../public/img/icon/gradientShape.png';
 import Image from 'next/image';
 const Features = () => {
   return (
-    <section className=" main-container">
-      <div className="grid gap-10  h-full grid-cols-1 lg:grid-cols-2 mx-2 sm:mx-20">
+    <section className=" ">
+      <div className="grid gap-4 main-container h-full grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col space-y-4">
           <Card items={features} />;
         </div>
@@ -17,8 +17,7 @@ const Features = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="grid mt-[3rem] main-container lg:mt-11 space-y-5 space-x-0 lg:space-x-7 my-10 grid-cols-1 lg:grid-cols-2 ">
-          <div className="patterns w-full "></div>
+        <div className="grid mt-[3rem] main-container lg:mt-11 space-y-5 space-x-0 lg:space-x-7 my-10 grid-cols-1 lg:grid-cols-2">
           <div className="bg-[#121621] mx-auto mt-16 p-4 rounded-3xl">
             <h2 className="text-[1.2em]  font-medium  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
               Patent-Pending Pattern Recognition algorithm

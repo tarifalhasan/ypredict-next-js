@@ -6,6 +6,7 @@ div#__next {
   overflow: hidden;
 }
 .patterns {
+<<<<<<< HEAD
   background: url(../../public/img/pattern.png) no-repeat top/100% 100%;
   min-height: 110px;
 }
@@ -14,15 +15,63 @@ div#__next {
   min-height: 110px;
   transition: all 0.6s ease-in-out;
 }
+=======
+  background: url(../assets/pattern.png) no-repeat top/100% 100%;
+  min-height: 110px;
+}
+>>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
 div#__next {
   overflow: hidden;
 }
 @media only screen and (max-width: 1024px) {
+<<<<<<< HEAD
+=======
+  .faq-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .testimonial-section .message {
+    padding-top: 200px;
+    padding-left: 20px;
+  }
+
+  .testimonial {
+    height: 500px;
+  }
+
+  .content-1 {
+    font-size: 24px;
+  }
+  .content-2 {
+    font-size: 16px;
+  }
+  .message > img {
+    margin-left: 30px;
+    width: 40px;
+    height: 50px;
+    margin-top: 70px;
+  }
+  .content-row img {
+    width: 100px;
+  }
+  .why-investing-wrapper p.title {
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+>>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
   .token-sale-table {
     padding-left: calc(10% * var(--ZOOM-MULTIPLIER));
     padding-right: calc(10% * var(--ZOOM-MULTIPLIER));
   }
 
+<<<<<<< HEAD
+=======
+  .download-now {
+    width: 190px;
+    height: 76px;
+  }
+
+>>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
   .token-sale-left-bg,
   .token-sale-right-bg {
     display: none;
@@ -627,6 +676,7 @@ div#__next {
 }
 
 @media only screen and (max-width: 428px) {
+<<<<<<< HEAD
   .table-footer {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 17px;
@@ -651,6 +701,39 @@ div#__next {
     border-radius: 17px;
     margin: 0 22px 25px !important;
   }
+=======
+  .message .content-1 {
+    font-size: calc(36px * var(--ZOOM-MULTIPLIER));
+    text-align: center;
+    font-weight: 700;
+  }
+  .message .content-2 {
+    margin-top: 8px;
+    font-size: calc(24px * var(--ZOOM-MULTIPLIER));
+    text-align: center;
+  }
+  .message .content {
+    width: 90%;
+  }
+  .content-row img {
+    width: 40px;
+  }
+  .content-row p.content {
+    font-size: 14px;
+  }
+  .interested-text-span {
+    font-size: calc(22px * var(--ZOOM-MULTIPLIER));
+
+    line-height: calc(35px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .interest-ypredict {
+    font-size: calc(22px * var(--ZOOM-MULTIPLIER));
+
+    line-height: calc(35px * var(--ZOOM-MULTIPLIER));
+  }
+
+>>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
   .token-sale-details {
     width: calc(10px * var(--ZOOM-MULTIPLIER));
   }
