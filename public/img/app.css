@@ -1,11 +1,4 @@
 .patterns {
-  background: url(../assets/pattern.png) no-repeat top/100% 100%;
-  min-height: 110px;
-}
-div#__next {
-  overflow: hidden;
-}
-.patterns {
   background: url(../../public/img/pattern.png) no-repeat top/100% 100%;
   min-height: 110px;
 }
@@ -18,9 +11,51 @@ div#__next {
   overflow: hidden;
 }
 @media only screen and (max-width: 1024px) {
+  .margin-img {
+    margin-top: -50px;
+    margin-left: 100px;
+    width: 80%;
+  }
+  .faq-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .testimonial-section .message {
+    padding-top: 200px;
+    padding-left: 20px;
+  }
+
+  .testimonial {
+    height: 500px;
+  }
+
+  .content-1 {
+    font-size: 24px;
+  }
+  .content-2 {
+    font-size: 16px;
+  }
+  .message > img {
+    margin-left: 30px;
+    width: 40px;
+    height: 50px;
+    margin-top: 70px;
+  }
+  .content-row img {
+    width: 100px;
+  }
+  .why-investing-wrapper p.title {
+    padding-left: 220px;
+    padding-right: 220px;
+  }
   .token-sale-table {
     padding-left: calc(10% * var(--ZOOM-MULTIPLIER));
     padding-right: calc(10% * var(--ZOOM-MULTIPLIER));
+  }
+
+  .download-now {
+    width: 190px;
+    height: 76px;
   }
 
   .token-sale-left-bg,
@@ -56,6 +91,11 @@ div#__next {
 }
 
 @media only screen and (max-width: 915px) {
+  .margin-img {
+    margin-top: -50px;
+    margin-left: 100px;
+    width: 80%;
+  }
   .testimonial-section .message {
     padding-top: 200px;
   }
@@ -131,6 +171,11 @@ div#__next {
 }
 
 @media only screen and (max-width: 767px) {
+  .margin-img {
+    margin-top: -30px;
+    margin-left: 70px;
+    width: 80%;
+  }
   .testimonial {
     background: #f2f2f2;
     height: 450px;
@@ -255,6 +300,11 @@ div#__next {
 }
 
 @media only screen and (max-width: 568px) {
+  .margin-img {
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 80%;
+  }
   .content-row img {
     width: 50px;
   }

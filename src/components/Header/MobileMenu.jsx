@@ -8,7 +8,7 @@ import { RiMenu2Line } from 'react-icons/ri';
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
-    setIsOpen((prevState) => !prevState);
+    setIsOpen(prevState => !prevState);
   };
   return (
     <>
@@ -28,24 +28,34 @@ const MobileMenu = () => {
           open={isOpen}
           onClose={toggleDrawer}
           direction="left"
-          className="bla bla bla"
+          className=""
         >
           <nav>
+            <div className="m-6">
+              <Link href={'/'}>
+                <Image
+                  src="/ypred-coin.png"
+                  alt="logo"
+                  width={100}
+                  height={40}
+                />
+              </Link>
+            </div>
             <ul className="flex mt-10 ml-6  flex-col items-start gap-y-8 nav-item">
-              <li className="text-black ">
+              <li className="text-slate-100 ">
                 <Link href={'/'}>Home</Link>
               </li>
-              <li className="text-black ">
+              <li className="text-slate-100 ">
                 <Link href={'/app'}>App</Link>
               </li>
-              <li className="text-black ">
+              <li className="text-slate-100 ">
                 <Link href={'/token'}>Token</Link>
               </li>
-              <li className="text-black ">
+              <li className="text-slate-100 ">
                 <Link href={'/community'}>Community</Link>
               </li>
-              <li className="beta_btn">
-                <button className="text-skin-pink rounded-xl text-[1em] font-light border-2  border-skin-pink px-4 py-2">
+              <li className="beta_btn  mt-48">
+                <button className="text-skin-pink rounded-xl text-[1em] font-light border-2  border-skin-pink px-6 py-2">
                   Beta Access
                 </button>
               </li>
