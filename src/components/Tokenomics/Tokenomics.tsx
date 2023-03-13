@@ -3,11 +3,7 @@ import Image from 'next/image';
 import privateImg from '../../../public/img/icon/private-sale-row-image.svg';
 import preImg from '../../../public/img/icon/pre-sale-row-image.svg';
 import publicImg from '../../../public/img/icon/public-sale-row-image.svg';
-<<<<<<< HEAD
 
-=======
-// alloco
->>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
 const allocVestingData = [
   {
     allocatedTo: 'Private Sale',
@@ -94,12 +90,7 @@ const Tokenomics = () => {
               id="sale-tab-1"
               onClick={() => setTap(1)}
             >
-<<<<<<< HEAD
               <span className="relative rounded-[11px] w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 ">
-=======
-              <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 ">
-                <span className=""></span>
->>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
                 <div className="flex w-full items-center gap-2">
                   Sale Details
                 </div>
@@ -111,11 +102,7 @@ const Tokenomics = () => {
               onClick={() => setTap(2)}
               className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  "
             >
-<<<<<<< HEAD
               <span className="relative rounded-[11px] w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
-=======
-              <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
->>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
                 <div className="flex w-full items-center gap-2">
                   Allocation and Vesting
                 </div>
@@ -127,11 +114,7 @@ const Tokenomics = () => {
               onClick={() => setTap(3)}
               className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  "
             >
-<<<<<<< HEAD
               <span className="relative rounded-[11px] w-full  px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
-=======
-              <span className="relative w-full  px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
->>>>>>> 874b0de71f2262f347284e7f4ab00c47fdb1c895
                 <div className="flex w-full items-center gap-2">Road Map</div>
               </span>
             </button>
